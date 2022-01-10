@@ -83,6 +83,7 @@ a:hover {
     border-radius: 10px;
     padding-left: 25px;
     padding-right: 25px
+    
 }
 
 .button:hover {
@@ -147,7 +148,7 @@ a:hover {
     content: "";
     background-color: #e5e7eb;
     position: absolute;
-    height: 400px;
+    height: 450px;
     width: 200vw;
     left: -100vw;
     z-index: -1;
@@ -163,7 +164,8 @@ a:hover {
     font-weight: lighter;
     font-style: italic;
     width: 800px;
-    height: 300px;
+    height: 200px;
+    padding-top: 100px;
 }
 
 .quote-author {
@@ -173,4 +175,47 @@ a:hover {
     color: black;
     font-size: large;
     font-weight: bold;
+}
+
+.banner-area {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 20px;
+    width: 900px;
+    padding-left: 200px;
+}
+
+.banner-words {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner-header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+
+.banner-text {
+    color: #f9faf8;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.button-2 {
+    border: #f9faf8;
+    padding: 15px;
+    border: 5px;
+    border-radius: 15px;
+    border-style: solid;
 }
