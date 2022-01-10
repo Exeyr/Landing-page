@@ -5,7 +5,9 @@ body {
 }
 
 .body {
-    color: #1F2937; background-color: #1F2937; text-align: center;
+    color: #1F2937; 
+    background-color: #1F2937; 
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
@@ -131,4 +133,44 @@ a:hover {
 .random-info {
     padding-top: 10px;
     text-align: center;
+}
+
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: #e5e7eb;
+    color: #e5e7eb;
+}
+
+.quote-body:before {
+    content: "";
+    background-color: #e5e7eb;
+    position: absolute;
+    height: 400px;
+    width: 200vw;
+    left: -100vw;
+    z-index: -1;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+    height: 300px;
+}
+
+.quote-author {
+    justify-content: left;
+    align-items: flex-end;
+    text-align: end;
+    color: black;
+    font-size: large;
+    font-weight: bold;
 }
